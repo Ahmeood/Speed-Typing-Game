@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SpeedTypingtestGame.css">
+    <title>Speed Typing Test Game</title>
+</head>
+<body>
+    <div class="game">
+        <div class="name"> Typing Speed Test Game</div>
+
+        <span class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <nav>
+            <span class="close">X</span>
+            <span class="levels">Level : <span>Easy</span> <span class="active">Medium</span> <span>Hard</span></span>
+            <span class="sec-number">Number Of Seconds : <span>5</span> <span>10</span> <span>15</span> <span class="active">20</span> <span>25</span> <span>30</span></span>
+        </nav>
+
+        <div class="container">
+            <div class="message">
+                You Are Playing on
+                <span class="lvl"></span> Level & You Have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <div class="the-word"></div>
+            <input type="text" class="input">
+            <div class="start">Start Playing</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">Score: <span class="got">0</span> From <span class="total"></span></div>
+            </div>
+        </div>
+    </div>
+    <script src="./SpeedTypingtestGame.js"></script>
+</body>
+</html>
